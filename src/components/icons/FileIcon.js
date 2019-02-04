@@ -37,10 +37,10 @@ class FileIcon extends Component {
             L25.459,40.895c-0.563,0.562-0.563,1.473,0,2.035c0.281,0.281,0.65,0.422,1.018,0.422c0.369,0,0.737-0.141,1.018-0.422
             L43.83,26.596C49.354,21.073,49.395,12.126,43.922,6.653z' />
           </g>
-      </svg>
-    </button>
-    );
+        </svg>
+      </button>
+    )
   }
 }
 
-export default FileIcon;
+export default FileIcon

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class SendIcon extends Component {
 
@@ -25,11 +25,11 @@ class SendIcon extends Component {
           L2.082,32.295c-0.115,0.372-0.004,0.777,0.285,1.038c0.188,0.169,0.427,0.258,0.67,0.258c0.132,0,0.266-0.026,0.392-0.08
           l33.079-14.078c0.368-0.157,0.607-0.519,0.608-0.919S36.879,17.752,36.511,17.594z M4.632,30.825L8.469,18.45h8.061
           c0.552,0,1-0.448,1-1s-0.448-1-1-1H8.395L3.866,5.751l29.706,12.757L4.632,30.825z' />
-        </g>
-      </svg>
-    </button>
-    );
+          </g>
+        </svg>
+      </button>
+    )
   }
 }
 
-export default SendIcon;
+export default SendIcon
