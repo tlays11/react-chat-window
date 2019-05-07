@@ -134,7 +134,7 @@ module.exports = __webpack_require__.p + "close-icon.c30463a5.png";
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "logo-no-bg.7718b3e3.svg";
+module.exports = __webpack_require__.p + "logo-no-bg.0d51e38f.svg";
 
 /***/ }),
 /* 4 */
