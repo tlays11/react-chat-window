@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/uoy0kkm.css");
 .sc-chat-window {
   width: 370px;
   height: calc(100% - 120px);
@@ -13,7 +14,7 @@
   justify-content: space-between;
   transition: 0.3s ease-in-out;
   border-radius: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "century-gothic", Helvetica, Arial, sans-serif;
 }
 
 .sc-chat-window.closed {
