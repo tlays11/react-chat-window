@@ -7,8 +7,8 @@ import launcherIconActive from './../assets/close-icon.png';
 
 class Launcher extends Component {
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props)
     this.state = {
       launcherIcon,
       isOpen: false

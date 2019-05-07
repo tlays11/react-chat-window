@@ -14,10 +14,10 @@ import launcherIconActive from './../assets/close-icon.png';
 var Launcher = function (_Component) {
   _inherits(Launcher, _Component);
 
-  function Launcher() {
+  function Launcher(props) {
     _classCallCheck(this, Launcher);
 
-    var _this = _possibleConstructorReturn(this, _Component.call(this));
+    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
 
     _this.state = {
       launcherIcon: launcherIcon,

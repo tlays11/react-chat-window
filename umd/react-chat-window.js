@@ -296,7 +296,7 @@ exports.default = Linkify;
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "chat-icon.e0d2b748.svg";
+module.exports = __webpack_require__.p + "chat-icon.f3ae4179.svg";
 
 /***/ }),
 /* 6 */
@@ -6237,7 +6237,7 @@ var Header_Header = function (_Component) {
     return external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
       'div',
       { className: 'sc-header' },
-      external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('img', { className: 'sc-header--img', src: this.props.imageUrl, alt: '' }),
+      external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('img', { className: 'sc-header--img', src: this.props.imageUrl, alt: '', style: { width: 50, height: 50 } }),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(
         'div',
         { className: 'sc-header--team-name' },
@@ -6348,10 +6348,10 @@ function Launcher_inherits(subClass, superClass) { if (typeof superClass !== "fu
 var Launcher_Launcher = function (_Component) {
   Launcher_inherits(Launcher, _Component);
 
-  function Launcher() {
+  function Launcher(props) {
     Launcher_classCallCheck(this, Launcher);
 
-    var _this = Launcher_possibleConstructorReturn(this, _Component.call(this));
+    var _this = Launcher_possibleConstructorReturn(this, _Component.call(this, props));
 
     _this.state = {
       launcherIcon: logo_no_bg_default.a,

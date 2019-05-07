@@ -20,7 +20,7 @@ var Header = function (_Component) {
     return React.createElement(
       'div',
       { className: 'sc-header' },
-      React.createElement('img', { className: 'sc-header--img', src: this.props.imageUrl, alt: '' }),
+      React.createElement('img', { className: 'sc-header--img', src: this.props.imageUrl, alt: '', style: { width: 50, height: 50 } }),
       React.createElement(
         'div',
         { className: 'sc-header--team-name' },
