@@ -6398,7 +6398,7 @@ var Launcher_Launcher = function (_Component) {
         { className: classList.join(' '), onClick: this.handleClick.bind(this) },
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(Launcher_MessageCount, { count: this.props.newMessagesCount, isOpen: isOpen }),
         external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('img', { className: "sc-open-icon", src: close_icon_default.a }),
-        external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('img', { className: "sc-closed-icon", src: logo_no_bg_default.a })
+        external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement('img', { className: "sc-closed-icon", src: logo_no_bg_default.a, style: { width: 36, height: 36, right: 36, bottom: 36 } })
       ),
       external_root_React_commonjs2_react_commonjs_react_amd_react_default.a.createElement(components_ChatWindow, {
         messageList: this.props.messageList,

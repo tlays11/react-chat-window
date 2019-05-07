@@ -64,7 +64,7 @@ var Launcher = function (_Component) {
         { className: classList.join(' '), onClick: this.handleClick.bind(this) },
         React.createElement(MessageCount, { count: this.props.newMessagesCount, isOpen: isOpen }),
         React.createElement('img', { className: "sc-open-icon", src: launcherIconActive }),
-        React.createElement('img', { className: "sc-closed-icon", src: launcherIcon })
+        React.createElement('img', { className: "sc-closed-icon", src: launcherIcon, style: { width: 36, height: 36, right: 36, bottom: 36 } })
       ),
       React.createElement(ChatWindow, {
         messageList: this.props.messageList,
